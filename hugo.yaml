@@ -1,0 +1,160 @@
+baseURL: http://minnitsolutions.github.io/
+languageCode: en-us
+title: Minnit Solutions LLC
+
+theme: 'hugo-fresh'
+
+googleAnalytics: # Put in your tracking code without quotes like this: UA-XXX for universal tracking or G-XXX analytics v4 tracking
+# Disables warnings
+disableKinds:
+- taxonomy
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Allows you to write raw html in your md files
+
+params:
+  # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
+  openGraph: false
+  # Used as meta data; describe your site to make Google Bots happy
+  description:
+  # Preloader ensures images are loaded before displaying to the user. If you don't want it uncomment to set it to false
+  # preloader: false
+  navbarlogo:
+  # Logo (from static/images/logos/___)
+    image: logos/min-sol-text.svg
+    link: /
+    # Default width/height. Uncomment if you need to change
+    width: 160
+    height: 280
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title: IT shouldn't be a puzzle
+    # Hero subtitle (optional)
+    subtitle: We handle your IT needs so you can focus on your business
+    # Button text
+    #buttontext: Get started
+    # Where the main hero button links to
+    #buttonlink: "#"
+    # Hero image (from static/images/___)
+    image: illustrations/worker.svg
+    # Footer logos (from static/images/logos/clients/*.svg)
+    # urls are optional
+    # clientlogos:
+    # - logo: systek
+    #   url: https://google.com
+    # - logo: tribe
+    #   url: https://stefma.github.io/hugo-fresh/
+    # - logo: kromo
+    #   url: https://github.com/StefMa/hugo-fresh
+    # - logo: infinite
+    #   url: https://hugo-fresh.vercel.app/
+    # - logo: gutwork
+    #   url: https://bulma.io/
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  - title: About
+    url: /#about
+  - title: Services
+    url: /#services
+  - title: Hire Us
+    url: /#contact
+    button: true
+  # sidebar:
+  #   # Logo (from static/images/logos/___.svg)
+  #   logo: fresh-square
+  #   sections:
+  #   - title: User
+  #     icon: user
+  #     links:
+  #     - text: Profile
+  #       url: /
+  #     - text: Account
+  #       url: /
+  #     - text: Settings
+  #       url: /
+  #   - title: Messages
+  #     icon: envelope
+  #     links:
+  #     - text: Inbox
+  #       url: /
+  #     - text: Compose
+  #       url: /
+  #   - title: Images
+  #     icon: image
+  #     links:
+  #     - text: Library
+  #       url: /
+  #     - text: Upload
+  #       url: /
+  #   - title: Settings
+  #     icon: cog
+  #     links:
+  #     - text: User settings
+  #       url: /
+  #     - text: App settings
+  #       url: /
+  section1:
+    title: Sound familiar?
+    subtitle: We solve common organizational IT challenges
+    tiles:
+    -  text: We don't have a full-time IT staff 🚫
+    -  text: It takes too long to resolve issues 🐢
+    -  text: I don't feel confident about our technology plan 🩹
+    -  text: Unexpected IT costs keep coming up 💸
+    -  text: I don't know if we're secure 🔓
+  section2:
+    title: We're here to help
+    subtitle: You don't have to do IT by yourself
+    features:
+    - title: PIT Consulting
+      text: Our team provides tailored solutions to fit the unique needs of your business. We help you identify weaknesses and opportunities to get the most ouf of IT.
+      # Icon (from static/images/illustrations/icons/___.svg)
+      icon: laptop-globe
+    - title: Managed IT Services
+      text: "Get help when you need it most. We manage and maintain all aspects of your IT so you can spend time on what matters: your business."
+      icon: mouse-globe
+    - title: Cybersecurity & Data Backup
+      text: Is your business secured from all angles? We deploy a multi-level approach to keeping your data safe from threats and theft.
+      icon: doc-sync
+    - title: Cloud Services
+      text: Grow your business with the cloud. Our experts will identify cloud services that complement your business's operations.
+      icon: plug-cloud
+    - title: Managed Voice
+      text: Implement an advanced cloud-based phone system that allows your team to stay connected.
+      icon: mobile-feed
+  section5:
+    title: Get in touch
+    subtitle: Let us know how we can help
+    buttonText: Send
+    action: https://public.herotofu.com/v1/1969d030-359c-11ef-be6c-f779b2c96728
+    method: POST
+  footer:
+    # Logo (from static/images/logos/___)
+    logo: min-sol-text-white.svg
+    # Social Media Title
+    # socialmediatitle: Follow Us
+    # # Social media links (GitHub, Twitter, etc.). All are optional.
+    # socialmedia:
+    # - link: https://github.com/StefMa
+    #   # Icons are from Font Awesome
+    #   icon: github
+    # - link: https://dribbble.com/#
+    #   icon: dribbble
+    # - link: https://facebook.com/#
+    #   icon: facebook
+    # - link: https://twitter.com/StefMa91
+    #   icon: twitter
+    # - link: https://bitbucket.org/#
+    #   icon: bitbucket
+    quicklinks:
+      column1:
+        title: "Company"
+        links:
+        - text: About Us
+          link: /about
+        - text: Contact Us
+          link: /contact

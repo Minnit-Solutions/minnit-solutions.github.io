@@ -56,10 +56,10 @@ params:
     #   url: https://bulma.io/
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  - title: About
-    url: /#about
-  - title: Services
-    url: /#services
+  - title: Common Problems
+    url: /#common-problems
+  - title: Our Solutions
+    url: /#our-solutions
   - title: Hire Us
     url: /#contact
     button: true
@@ -98,7 +98,7 @@ params:
   #     - text: App settings
   #       url: /
   section1:
-    title: Sound familiar?
+    title: Have you had these concerns?
     subtitle: We solve common organizational IT challenges
     tiles:
     -  text: We don't have a full-time IT staff 🚫
@@ -110,7 +110,7 @@ params:
     title: We're here to help
     subtitle: You don't have to do IT by yourself
     features:
-    - title: PIT Consulting
+    - title: IT Consulting
       text: Our team provides tailored solutions to fit the unique needs of your business. We help you identify weaknesses and opportunities to get the most ouf of IT.
       # Icon (from static/images/illustrations/icons/___.svg)
       icon: laptop-globe
